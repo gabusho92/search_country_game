@@ -1,5 +1,5 @@
 //Elegir nombre
-let nombre = prompt('nombre?');
+let nombre = prompt('nombre?') || 'anonimo';
 
 //INICIALIZAR SOCKET
 const socket = io();
